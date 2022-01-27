@@ -451,6 +451,9 @@ FEATURES = {
     # .. toggle_creation_date: 2021-03-05
     # .. toggle_tickets: https://github.com/edx/edx-platform/pull/26106
     'ENABLE_HELP_LINK': True,
+
+    # Configure dates to show up as dd/mm/yyyy instead of mm/dd/yyyy
+    'DAY_FIRST_DATE_CONFIGURATION': False,
 }
 
 ENABLE_JASMINE = False
